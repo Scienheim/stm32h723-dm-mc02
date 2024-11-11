@@ -1,0 +1,564 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hcd.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sram.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./4785b9f702f21ccd3f40b4394321e81c/stm32/libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Source/Templates/system_stm32h7xx.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_comp.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cec.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Libraries.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"ADD_DEFINITIONS",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m7 -mthumb -mfpu=fpv5-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Dgcc -O0 -gdwarf-2 -g -std=c99 -g -std=gnu99 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "RT_USING_LIBC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "RT_USING_NEWLIBC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "STM32H723xx"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_POSIX_C_SOURCE=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__RTTHREAD__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/applications"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/compilers/common/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/compilers/newlib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus/cpp11/gcc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus/os"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/board"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/board/CubeMX_Config/Inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/drivers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/drivers/config"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/dfs/dfs_v1/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/dfs/dfs_v1/filesystems/devfs"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/finsh"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/ktime"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/ktime/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../libcpu/arm/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../libcpu/arm/cortex-m7"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/delay"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/epoll"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/eventfd"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/poll"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/stdio"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/ipc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/pthreads"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/tls"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/legacy/usb/usbdevice"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/smp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/utilities/ulog"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		}
+	],
+	"id" : "rtt_Libraries::@6890427a1f51a3e7e1df",
+	"name" : "rtt_Libraries",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hcd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sram.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Source/Templates/system_stm32h7xx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_comp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -30,6 +30,9 @@ INCLUDE_DIRECTORIES(
 	applications
 	../../../components/libc/compilers/common/include
 	../../../components/libc/compilers/newlib
+	../../../components/libc/cplusplus
+	../../../components/libc/cplusplus/cpp11/gcc
+	../../../components/libc/cplusplus/os
 	../../../components/drivers/include
 	board
 	board/CubeMX_Config/Inc
@@ -37,18 +40,28 @@ INCLUDE_DIRECTORIES(
 	../libraries/HAL_Drivers/drivers/config
 	../libraries/HAL_Drivers
 	../libraries/HAL_Drivers/CMSIS/Include
+	../../../components/dfs/dfs_v1/include
+	../../../components/dfs/dfs_v1/filesystems/devfs
 	../../../components/finsh
 	.
 	../../../include
+	../../../components/drivers/ktime
+	../../../components/drivers/ktime/inc
 	../../../libcpu/arm/common
 	../../../libcpu/arm/cortex-m7
 	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Inc
 	../libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Include
+	../../../components/libc/posix/delay
 	../../../components/libc/posix/io/epoll
 	../../../components/libc/posix/io/eventfd
 	../../../components/libc/posix/io/poll
+	../../../components/libc/posix/io/stdio
 	../../../components/libc/posix/ipc
+	../../../components/libc/posix/pthreads
+	../../../components/libc/posix/tls
+	../../../components/legacy/usb/usbdevice
 	../../../components/drivers/smp
+	../../../components/utilities/ulog
 )
 
 ADD_DEFINITIONS(
@@ -75,6 +88,20 @@ SET(RT_COMPILER_SOURCES
 	../../../components/libc/compilers/newlib/syscalls.c
 )
 
+SET(RT_CPP_SOURCES
+	../../../components/libc/cplusplus/cpp11/atomic_8.c
+	../../../components/libc/cplusplus/cpp11/gcc/condition_variable.cpp
+	../../../components/libc/cplusplus/cpp11/gcc/mutex.cpp
+	../../../components/libc/cplusplus/cpp11/gcc/thread.cpp
+	../../../components/libc/cplusplus/cpp11/gcc/utils.cpp
+	../../../components/libc/cplusplus/cpp11/thread_local_impl.cpp
+	../../../components/libc/cplusplus/cxx_crt.cpp
+	../../../components/libc/cplusplus/cxx_crt_init.c
+	../../../components/libc/cplusplus/os/cxx_Mutex.cpp
+	../../../components/libc/cplusplus/os/cxx_Semaphore.cpp
+	../../../components/libc/cplusplus/os/cxx_Thread.cpp
+)
+
 SET(RT_DEVICEDRIVERS_SOURCES
 	../../../components/drivers/core/device.c
 	../../../components/drivers/ipc/completion_comm.c
@@ -87,23 +114,34 @@ SET(RT_DEVICEDRIVERS_SOURCES
 	../../../components/drivers/ipc/waitqueue.c
 	../../../components/drivers/ipc/workqueue.c
 	../../../components/drivers/pin/dev_pin.c
+	../../../components/drivers/rtc/dev_rtc.c
 	../../../components/drivers/serial/dev_serial.c
 )
 
 SET(RT_DRIVERS_SOURCES
 	../libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h723xx.s
 	board/CubeMX_Config/Src/stm32h7xx_hal_msp.c
+	board/CubeMX_Config/Src/usbd_conf.c
 	board/board.c
 	../libraries/HAL_Drivers/drivers/drv_gpio.c
 	../libraries/HAL_Drivers/drivers/drv_usart.c
 	../libraries/HAL_Drivers/drv_common.c
 )
 
+SET(RT_FILESYSTEM_SOURCES
+	../../../components/dfs/dfs_v1/filesystems/devfs/devfs.c
+	../../../components/dfs/dfs_v1/src/dfs.c
+	../../../components/dfs/dfs_v1/src/dfs_file.c
+	../../../components/dfs/dfs_v1/src/dfs_fs.c
+	../../../components/dfs/dfs_v1/src/dfs_posix.c
+)
+
 SET(RT_FINSH_SOURCES
-	../../../components/finsh/shell.c
-	../../../components/finsh/msh_parse.c
 	../../../components/finsh/cmd.c
 	../../../components/finsh/msh.c
+	../../../components/finsh/msh_file.c
+	../../../components/finsh/shell.c
+	../../../components/finsh/msh_parse.c
 )
 
 SET(RT_KERNEL_SOURCES
@@ -127,6 +165,12 @@ SET(RT_KERNEL_SOURCES
 	../../../src/timer.c
 )
 
+SET(RT_KTIME_SOURCES
+	../../../components/drivers/ktime/src/hrtimer.c
+	../../../components/drivers/ktime/src/cputimer.c
+	../../../components/drivers/ktime/src/boottime.c
+)
+
 SET(RT_LIBCPU_SOURCES
 	../../../libcpu/arm/common/div0.c
 	../../../libcpu/arm/common/showmem.c
@@ -136,34 +180,63 @@ SET(RT_LIBCPU_SOURCES
 )
 
 SET(RT_LIBRARIES_SOURCES
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
-	../libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Source/Templates/system_stm32h7xx.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hcd.c
 	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c
 	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp_ex.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sram.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cec.c
-	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_comp.c
 	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sram.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc_ex.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c
+	../libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Source/Templates/system_stm32h7xx.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_comp.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cec.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c
+	../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c
 )
 
 SET(RT_POSIX_SOURCES
+	../../../components/libc/posix/delay/delay.c
+	../../../components/libc/posix/io/stdio/stdio.c
+	../../../components/libc/posix/pthreads/pthread.c
+	../../../components/libc/posix/pthreads/pthread_attr.c
+	../../../components/libc/posix/pthreads/pthread_barrier.c
+	../../../components/libc/posix/pthreads/pthread_cond.c
+	../../../components/libc/posix/pthreads/pthread_mutex.c
+	../../../components/libc/posix/pthreads/pthread_rwlock.c
+	../../../components/libc/posix/pthreads/pthread_spin.c
+	../../../components/libc/posix/pthreads/pthread_tls.c
+	../../../components/libc/posix/pthreads/sched.c
+	../../../components/libc/posix/tls/emutls.c
+)
+
+SET(RT_RT_USBD_SOURCES
+	../../../components/legacy/usb/usbdevice/class/cdc_vcom.c
+	../../../components/legacy/usb/usbdevice/core/usbdevice.c
+	../../../components/legacy/usb/usbdevice/core/usbdevice_core.c
 )
 
 SET(RT_SMP_SOURCES
+)
+
+SET(RT_UTILITIES_SOURCES
+	../../../components/utilities/ulog/ulog.c
+	../../../components/utilities/ulog/backend/console_be.c
 )
 
 # Library search paths
@@ -184,15 +257,20 @@ SET(RT_COMPILER_LIBS
 
 # Libraries
 ADD_LIBRARY(rtt_Compiler OBJECT ${RT_COMPILER_SOURCES})
+ADD_LIBRARY(rtt_CPP OBJECT ${RT_CPP_SOURCES})
 ADD_LIBRARY(rtt_DeviceDrivers OBJECT ${RT_DEVICEDRIVERS_SOURCES})
 ADD_LIBRARY(rtt_Drivers OBJECT ${RT_DRIVERS_SOURCES})
+ADD_LIBRARY(rtt_Filesystem OBJECT ${RT_FILESYSTEM_SOURCES})
 ADD_LIBRARY(rtt_Finsh OBJECT ${RT_FINSH_SOURCES})
 ADD_LIBRARY(rtt_Kernel OBJECT ${RT_KERNEL_SOURCES})
+ADD_LIBRARY(rtt_ktime OBJECT ${RT_KTIME_SOURCES})
 ADD_LIBRARY(rtt_libcpu OBJECT ${RT_LIBCPU_SOURCES})
 ADD_LIBRARY(rtt_Libraries OBJECT ${RT_LIBRARIES_SOURCES})
+ADD_LIBRARY(rtt_POSIX OBJECT ${RT_POSIX_SOURCES})
+ADD_LIBRARY(rtt_rt_usbd OBJECT ${RT_RT_USBD_SOURCES})
+ADD_LIBRARY(rtt_Utilities OBJECT ${RT_UTILITIES_SOURCES})
 
 # Interface libraries
-ADD_LIBRARY(rtt_POSIX INTERFACE)
 ADD_LIBRARY(rtt_smp INTERFACE)
 
 # Private macros
@@ -205,13 +283,18 @@ TARGET_LINK_LIBRARIES(rtt_Compiler INTERFACE ${RT_COMPILER_LIBS})
 ADD_EXECUTABLE(${CMAKE_PROJECT_NAME}.elf ${RT_APPLICATIONS_SOURCES})
 TARGET_LINK_LIBRARIES(${CMAKE_PROJECT_NAME}.elf
 	rtt_Compiler
+	rtt_CPP
 	rtt_DeviceDrivers
 	rtt_Drivers
+	rtt_Filesystem
 	rtt_Finsh
 	rtt_Kernel
+	rtt_ktime
 	rtt_libcpu
 	rtt_Libraries
 	rtt_POSIX
+	rtt_rt_usbd
+	rtt_Utilities
 	rtt_smp
 )
 

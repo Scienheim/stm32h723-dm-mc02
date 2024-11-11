@@ -1,0 +1,1200 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "rtthread.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"TARGET_LINK_LIBRARIES",
+			"ADD_DEFINITIONS",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 281,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 284,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m7 -mthumb -mfpu=fpv5-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Dgcc -O0 -gdwarf-2 -g -std=c99 -g -std=gnu99 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "RT_USING_LIBC"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "RT_USING_NEWLIBC"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32H723xx"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_HAL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "_POSIX_C_SOURCE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__RTTHREAD__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/applications"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/compilers/common/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/compilers/newlib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus/cpp11/gcc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus/os"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/board"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/board/CubeMX_Config/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/drivers"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/drivers/config"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/dfs/dfs_v1/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/dfs/dfs_v1/filesystems/devfs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/finsh"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/ktime"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/ktime/inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../libcpu/arm/common"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../libcpu/arm/cortex-m7"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/delay"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/epoll"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/eventfd"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/poll"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/stdio"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/ipc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/pthreads"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/tls"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/legacy/usb/usbdevice"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/smp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/utilities/ulog"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "rtt_Filesystem::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_Finsh::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_Compiler::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_Drivers::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_DeviceDrivers::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_CPP::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_Kernel::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_ktime::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_libcpu::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_Libraries::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_POSIX::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_rt_usbd::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rtt_Utilities::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "rtthread.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mcpu=cortex-m7 -mthumb -mfpu=fpv5-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Dgcc -O0 -gdwarf-2 -g -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mcpu=cortex-m7 -mthumb -mfpu=fpv5-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wl,--gc-sections,-Map=rtthread.map,-cref,-u,Reset_Handler -T C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/board/linker_scripts/link.lds -Wl,--gc-sections,--print-memory-usage",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "rtthread.elf",
+	"nameOnDisk" : "rtthread.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Compiler.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/compilers/common/cctype.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Compiler.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/compilers/common/cstdlib.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Compiler.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/compilers/common/cstring.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Compiler.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/compilers/common/ctime.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Compiler.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/compilers/common/cunistd.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Compiler.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/compilers/common/cwchar.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Compiler.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/compilers/newlib/syscalls.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_CPP.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/cplusplus/cpp11/atomic_8.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_CPP.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/cplusplus/cpp11/gcc/condition_variable.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_CPP.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/cplusplus/cpp11/gcc/mutex.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_CPP.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/cplusplus/cpp11/gcc/thread.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_CPP.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/cplusplus/cpp11/gcc/utils.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_CPP.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/cplusplus/cpp11/thread_local_impl.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_CPP.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/cplusplus/cxx_crt.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_CPP.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/cplusplus/cxx_crt_init.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_CPP.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/cplusplus/os/cxx_Mutex.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_CPP.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/cplusplus/os/cxx_Semaphore.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_CPP.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/cplusplus/os/cxx_Thread.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/core/device.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/completion_comm.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/completion_up.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/condvar.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/dataqueue.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/pipe.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/ringblk_buf.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/ringbuffer.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/waitqueue.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/workqueue.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/pin/dev_pin.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/rtc/dev_rtc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_DeviceDrivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/serial/dev_serial.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Drivers.dir/6ce84a5d02f9f29cbf445b16e5b0b4c4/libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h723xx.s.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Drivers.dir/board/CubeMX_Config/Src/stm32h7xx_hal_msp.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Drivers.dir/board/CubeMX_Config/Src/usbd_conf.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Drivers.dir/board/board.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Drivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/HAL_Drivers/drivers/drv_gpio.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Drivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/HAL_Drivers/drivers/drv_usart.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Drivers.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/HAL_Drivers/drv_common.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Filesystem.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/dfs/dfs_v1/filesystems/devfs/devfs.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Filesystem.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/dfs/dfs_v1/src/dfs.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Filesystem.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/dfs/dfs_v1/src/dfs_file.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Filesystem.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/dfs/dfs_v1/src/dfs_fs.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Filesystem.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/dfs/dfs_v1/src/dfs_posix.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Finsh.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/cmd.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Finsh.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/msh.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Finsh.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/msh_file.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Finsh.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/shell.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Finsh.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/msh_parse.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/clock.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/components.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/cpu_up.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/defunct.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/idle.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/ipc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/irq.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/klibc/kerrno.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/klibc/kstdio.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/klibc/kstring.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/kservice.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/mem.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/mempool.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/object.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/scheduler_comm.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/scheduler_up.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/thread.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Kernel.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/src/timer.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_ktime.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ktime/src/hrtimer.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_ktime.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ktime/src/cputimer.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_ktime.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ktime/src/boottime.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_libcpu.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/libcpu/arm/common/div0.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_libcpu.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/libcpu/arm/common/showmem.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_libcpu.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/libcpu/arm/cortex-m7/context_gcc.S.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_libcpu.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/libcpu/arm/cortex-m7/cpu_cache.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_libcpu.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/libcpu/arm/cortex-m7/cpuport.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hcd.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sram.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/4785b9f702f21ccd3f40b4394321e81c/stm32/libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Source/Templates/system_stm32h7xx.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cryp.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_comp.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cec.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Libraries.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/delay/delay.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/io/stdio/stdio.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/pthreads/pthread.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/pthreads/pthread_attr.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/pthreads/pthread_barrier.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/pthreads/pthread_cond.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/pthreads/pthread_mutex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/pthreads/pthread_rwlock.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/pthreads/pthread_spin.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/pthreads/pthread_tls.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/pthreads/sched.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_POSIX.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/libc/posix/tls/emutls.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_rt_usbd.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_rt_usbd.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_rt_usbd.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Utilities.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/utilities/ulog/ulog.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/rtt_Utilities.dir/C_/Work_Space/Project/RTT_Learn/rt-thread/components/utilities/ulog/backend/console_be.c.obj",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

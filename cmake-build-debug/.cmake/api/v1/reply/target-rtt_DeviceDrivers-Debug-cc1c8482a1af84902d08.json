@@ -1,0 +1,410 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/core/device.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/completion_comm.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/completion_up.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/condvar.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/dataqueue.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/pipe.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/ringblk_buf.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/ringbuffer.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/waitqueue.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/workqueue.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/pin/dev_pin.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/rtc/dev_rtc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_DeviceDrivers.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/serial/dev_serial.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"ADD_DEFINITIONS",
+			"TARGET_COMPILE_DEFINITIONS",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 261,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m7 -mthumb -mfpu=fpv5-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Dgcc -O0 -gdwarf-2 -g -std=c99 -g -std=gnu99 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "RT_USING_LIBC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "RT_USING_NEWLIBC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "STM32H723xx"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_POSIX_C_SOURCE=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__RTTHREAD__"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__RT_IPC_SOURCE__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/applications"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/compilers/common/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/compilers/newlib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus/cpp11/gcc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus/os"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/board"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/board/CubeMX_Config/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/drivers"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/drivers/config"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/dfs/dfs_v1/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/dfs/dfs_v1/filesystems/devfs"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/finsh"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/ktime"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/ktime/inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../libcpu/arm/common"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../libcpu/arm/cortex-m7"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/delay"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/epoll"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/eventfd"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/poll"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/stdio"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/ipc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/pthreads"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/tls"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/legacy/usb/usbdevice"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/smp"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/utilities/ulog"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"id" : "rtt_DeviceDrivers::@6890427a1f51a3e7e1df",
+	"name" : "rtt_DeviceDrivers",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/core/device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/completion_comm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/completion_up.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/condvar.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/dataqueue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/pipe.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/ringblk_buf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/ringbuffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/waitqueue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/ipc/workqueue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/pin/dev_pin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/rtc/dev_rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/drivers/serial/dev_serial.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

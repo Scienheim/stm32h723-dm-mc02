@@ -8,6 +8,7 @@ cwd = GetCurrentDir()
 # add the general drivers.
 src = Glob('board.c')
 src += Glob('CubeMX_Config/Src/stm32h7xx_hal_msp.c')
+src += Glob('CubeMX_Config/Src/usbd_conf.c')
 
 path = [cwd]
 path += [cwd + '/CubeMX_Config/Inc']
