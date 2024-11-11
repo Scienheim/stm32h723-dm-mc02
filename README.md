@@ -16,7 +16,7 @@
 
 开发板外观如下图所示：
 
-![本地路径](.\\figures\\board.png)
+![board](figures/board.png)
 
 该开发板常用 **板载资源** 如下：
 
