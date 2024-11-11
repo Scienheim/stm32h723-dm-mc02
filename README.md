@@ -16,7 +16,7 @@
 
 开发板外观如下图所示：
 
-![buy.png](C:\Users\lenovo\Downloads\buy.png)
+![本地路径](.\\figures\\board.png)
 
 该开发板常用 **板载资源** 如下：
 
