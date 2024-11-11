@@ -1,4 +1,10 @@
 C:\Users\lenovo\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/lenovo/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Work_Space\Project\RTT_Learn\rt-thread\bsp\stm32\stm32h723-dm-mc02 -B C:\Work_Space\Project\RTT_Learn\rt-thread\bsp\stm32\stm32h723-dm-mc02\cmake-build-debug
--- Configuring done (0.1s)
+CMake Warning (dev) at CMakeLists.txt:39:
+  Syntax Warning in cmake code at column 137
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/cmake-build-debug

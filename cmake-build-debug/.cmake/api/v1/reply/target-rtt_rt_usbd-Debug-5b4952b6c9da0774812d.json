@@ -2,58 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/clock.c.obj"
+			"path" : "CMakeFiles/rtt_rt_usbd.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj"
 		},
 		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/components.c.obj"
+			"path" : "CMakeFiles/rtt_rt_usbd.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj"
 		},
 		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/cpu_up.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/defunct.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/idle.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/ipc.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/irq.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/klibc/kerrno.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/klibc/kstdio.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/klibc/kstring.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/kservice.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/mem.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/mempool.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/object.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/scheduler_comm.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/scheduler_up.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/thread.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Kernel.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/src/timer.c.obj"
+			"path" : "CMakeFiles/rtt_rt_usbd.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj"
 		}
 	],
 	"backtrace" : 1,
@@ -63,7 +18,6 @@
 		[
 			"ADD_LIBRARY",
 			"ADD_DEFINITIONS",
-			"TARGET_COMPILE_DEFINITIONS",
 			"INCLUDE_DIRECTORIES"
 		],
 		"files" : 
@@ -78,23 +32,17 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 265,
+				"line" : 271,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 67,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
-				"file" : 0,
-				"line" : 278,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
 				"file" : 0,
 				"line" : 29,
 				"parent" : 0
@@ -135,152 +83,156 @@
 				{
 					"backtrace" : 2,
 					"define" : "__RTTHREAD__"
-				},
-				{
-					"backtrace" : 3,
-					"define" : "__RT_KERNEL_SOURCE__"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/applications"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/compilers/common/include"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/compilers/newlib"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus/cpp11/gcc"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/cplusplus/os"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/include"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/board"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/board/CubeMX_Config/Inc"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
+					"path" : "C:/CubeMX_Config/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/CubeMX_Config/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/,"
+				},
+				{
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/drivers"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/drivers/config"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/HAL_Drivers/CMSIS/Include"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/dfs/dfs_v1/include"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/dfs/dfs_v1/filesystems/devfs"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/finsh"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/."
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../include"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/ktime"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/ktime/inc"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../libcpu/arm/common"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../libcpu/arm/cortex-m7"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Inc"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Include"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/delay"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/epoll"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/eventfd"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/poll"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/io/stdio"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/ipc"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/pthreads"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/libc/posix/tls"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/legacy/usb/usbdevice"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/drivers/smp"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/../../../components/utilities/ulog"
 				}
 			],
@@ -297,27 +249,12 @@
 			[
 				0,
 				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17
+				2
 			]
 		}
 	],
-	"id" : "rtt_Kernel::@6890427a1f51a3e7e1df",
-	"name" : "rtt_Kernel",
+	"id" : "rtt_rt_usbd::@6890427a1f51a3e7e1df",
+	"name" : "rtt_rt_usbd",
 	"paths" : 
 	{
 		"build" : ".",
@@ -331,22 +268,7 @@
 			[
 				0,
 				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17
+				2
 			]
 		}
 	],
@@ -355,109 +277,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/clock.c",
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/components.c",
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/cpu_up.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/defunct.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/idle.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/ipc.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/irq.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/klibc/kerrno.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/klibc/kstdio.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/klibc/kstring.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/kservice.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/mem.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/mempool.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/object.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/scheduler_comm.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/scheduler_up.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/thread.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/src/timer.c",
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c",
 			"sourceGroupIndex" : 0
 		}
 	],

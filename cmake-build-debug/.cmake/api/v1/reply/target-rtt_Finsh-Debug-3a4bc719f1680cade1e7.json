@@ -2,19 +2,19 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CMakeFiles/rtt_Finsh.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/cmd.c.obj"
-		},
-		{
 			"path" : "CMakeFiles/rtt_Finsh.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/msh.c.obj"
-		},
-		{
-			"path" : "CMakeFiles/rtt_Finsh.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/msh_file.c.obj"
 		},
 		{
 			"path" : "CMakeFiles/rtt_Finsh.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/shell.c.obj"
 		},
 		{
+			"path" : "CMakeFiles/rtt_Finsh.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/cmd.c.obj"
+		},
+		{
 			"path" : "CMakeFiles/rtt_Finsh.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/msh_parse.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/rtt_Finsh.dir/./C_/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/msh_file.c.obj"
 		}
 	],
 	"backtrace" : 1,
@@ -38,13 +38,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 264,
+				"line" : 265,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 67,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
@@ -128,6 +128,14 @@
 				{
 					"backtrace" : 3,
 					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/board/CubeMX_Config/Inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/CubeMX_Config/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/CubeMX_Config/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/bsp/stm32/stm32h723-dm-mc02/,"
 				},
 				{
 					"backtrace" : 3,
@@ -279,19 +287,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/cmd.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
 			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/msh.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/msh_file.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -303,7 +299,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/cmd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/msh_parse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Work_Space/Project/RTT_Learn/rt-thread/components/finsh/msh_file.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -12,6 +12,7 @@ src += Glob('CubeMX_Config/Src/usbd_conf.c')
 
 path = [cwd]
 path += [cwd + '/CubeMX_Config/Inc']
+path += ['/CubeMX_Config/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc' + '/CubeMX_Config/Middlewares/ST/STM32_USB_Device_Library/Core/Inc']
 
 startup_path_prefix = SDK_LIB
 
